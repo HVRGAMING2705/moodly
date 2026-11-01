@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moodly_mood_tracker_app"
+version = "0.1.0"
+description = "A fully functional mood tracker with daily entries, mood history, and visual statistics. No login or registration required."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
